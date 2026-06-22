@@ -3,6 +3,7 @@ package org.example;
 import org.example.models.*;
 import java.util.ArrayList;
 import java.util.List;
+import org.example.models.BookStatus;
 
 public class Main {
 
@@ -15,24 +16,21 @@ public class Main {
                         1,
                         "the art of letting go",
                         "ram",
-                        2008,
-                        BookStatus.AVAILABLE));
+                        2008));
 
         books.add(
                 new Book(
                         2,
                         "next to you",
                         "james",
-                        2018,
-                        BookStatus.AVAILABLE));
+                        2018 ));
 
         books.add(
                 new Book(
                         3,
                         "snowflake",
                         "Garret",
-                        2022,
-                        BookStatus.AVAILABLE));
+                        2022));
 
         System.out.println("Before Sorting");
 
